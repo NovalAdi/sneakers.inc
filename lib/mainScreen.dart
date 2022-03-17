@@ -109,12 +109,12 @@ class List extends StatelessWidget {
                         Align(
                           alignment: Alignment.centerLeft,
                           child: ClipRRect(
-                              borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(10),
-                                bottomLeft: Radius.circular(10),
-                              ),
-                              child: Image.network(shoes.imageUrl[0]),
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(10),
+                              bottomLeft: Radius.circular(10),
                             ),
+                            child: Image.network(shoes.imageUrl[0]),
+                          ),
                         ),
                         Expanded(
                           flex: 2,
