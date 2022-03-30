@@ -6,7 +6,7 @@
    <application
         android:label="Sneakers.INC"
         android:name="${applicationName}"
-        android:icon="@mipmap/icon_sneakers_round">
+        android:icon="@mipmap/icon_sneakers_round«">
         <activity
             android:name=".MainActivity"
             android:exported="true"
