@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vall.submission_flutter">
 
-<!--    <uses-permission android:name="android.permission.INTERNET"/>-->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
    <application
         android:label="Sneakers.INC"
         android:name="${applicationName}"
-        android:icon="@mipmap/icon_sneakers_round«">
+        android:icon="@mipmap/icon_sneakers_round">
         <activity
             android:name=".MainActivity"
             android:exported="true"
